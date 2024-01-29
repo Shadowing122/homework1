@@ -20,9 +20,11 @@ public class ParkingLot {
                 if ((this.lot[i].handicap == true) &&  (car.handicap == true)){
                     index = i;
                     lot[i].car = car;
+                    break;
                 } else if ((this.lot[i].handicap == false) &&  (car.handicap == false)){
                     index = i;
                     lot[i].car = car;
+                    break;
                 }
             }
         }

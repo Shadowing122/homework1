@@ -6,7 +6,7 @@ public class ParkingTester {
         int i = lot.parkCar(car1);
         System.out.println(lot);
         Car car2 = new Car("B", "Cadiliac", false);
-        int i2 = lot.parkCar(car2);
+        lot.parkCar(car2);
         System.out.println(lot);
         lot.removeCar(i);
         System.out.println(lot);
