@@ -44,7 +44,6 @@ public class ParkingLot {
         for (int i=0; i<this.lot.length; i++){
             if ((this.lot[i].handicap == true) && (this.lot[i].car == null)){
                 handicapNum += 1;
-                emptyNum += 1;
             } else if (this.lot[i].car == null){
                 emptyNum += 1;
             }
